@@ -52,12 +52,12 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>ru.sergkorot.dynamic</groupId>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>spring-boot-operation-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>ru.sergkorot.dynamic</groupId>
+                <groupId>${project.groupId}</groupId>
                 <artifactId>spring-boot-operation-mongodb-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
