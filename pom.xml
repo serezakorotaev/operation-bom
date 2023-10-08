@@ -6,7 +6,7 @@
 
     <groupId>ru.sergkorot.dynamic</groupId>
     <artifactId>operation-bom</artifactId>
-    <version>1.0.0</version>
+    <version>3.0.0</version>
     <packaging>pom</packaging>
     <name>Dynamic operation Bill Of Material</name>
 
@@ -52,9 +52,14 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>inovat.korotaev.org</groupId>
+                <groupId>ru.sergkorot.dynamic</groupId>
                 <artifactId>spring-boot-operation-starter</artifactId>
-                <version>${spring.boot.operation.starter}</version>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ru.sergkorot.dynamic</groupId>
+                <artifactId>spring-boot-operation-mongodb-starter</artifactId>
+                <version>${project.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
